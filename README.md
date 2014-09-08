@@ -105,16 +105,17 @@ You **should** change these files before deploying:
 * `_includes/sidebar.html`: Customize the side bar.
 * `_includes/post-header.html`: Customize the post header.
 * `_includes/post-footer.html`: Customize the post footer.
+* `_includes/footer.html`: Add copyright info, etc.
 
 ### Optional
 
 You **may** customize these files - they're optional:
 
 * `favicon.ico`: Favicon.
+* `about.html`: About page. Currently not linked from anywhere.
 * `_includes/head.html`: Extra stuff in the `<head>` tag.
 * `_includes/scripts.html`: Extra stuff before the `</body>` tag.
 * `_includes/post-header-home.html`: Customize the post header on the home page.
-* `_includes/footer.html`: Customize the page footer. Add copyright info, etc.
 
 ### Customize the Theme
 
