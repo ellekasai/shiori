@@ -30,7 +30,7 @@ Links look like [this](#). *Emphasis*. <mark>Marked</mark>. <del>Deleted</del>. 
 
 ## Tables
 
-In Shiori, you don't need to add `.table` class to `table`. It just works.
+In Shiori, you don't need to add the Bootstrap `.table` class to `table`. It just works.
 
 <table>
   <thead>
@@ -51,13 +51,13 @@ In Shiori, you don't need to add `.table` class to `table`. It just works.
 
 ## Code
 
-```ruby
+{% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
 end
 print_hi('Elle')
 #=> prints 'Hi, Elle' to STDOUT.
-```
+{% endhighlight %}
 
 ## Images
 
