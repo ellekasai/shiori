@@ -98,6 +98,7 @@ To keep Shiori up to date, follow these steps:
 You **should** change these files before deploying:
 
 * `_config.yml`: You must change `baseurl`, `url`, and `title`. Others are optional.
+  * Make sure to restart the server after you update `_config.yml`.
 * `CNAME`: Change this to host Shiori on a custom domain.
 * `README.md`: Write your own README!
 * `_includes/nav.html`: Modify or remove navigation links.
