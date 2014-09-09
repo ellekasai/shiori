@@ -25,20 +25,22 @@
       <div class="container">
         <div class="navbar-header">
           <div class="navbar-toggle-wrapper visible-xs">
-            <button type="button" class="navbar-toggle" data-toggle="dropdown">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".js-navbar-collapse">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <ul class="dropdown-menu">
-              {% include nav.html %}
-            </ul>
           </div>
           <a href="{{ "/" | prepend:site.baseurl }}" class="navbar-brand">{{ site.title }}</a>
         </div>
-        <ul class="navbar-nav nav hidden-xs">
-          {% include nav.html %}
-        </ul>
+        <div class="collapse navbar-collapse js-navbar-collapse">
+          <ul class="navbar-nav nav">
+            {% include nav.html %}
+          </ul>
+          <ul class="navbar-nav nav navbar-right">
+            {% include nav-right.html %}
+          </ul>
+        </div>
       </div>
     </div>
     <div class="container">
