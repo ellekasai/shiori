@@ -12,10 +12,6 @@
 
 ![](http://cl.ly/image/3a2M1D3E3b3d/screenshot%202014-08-30%20at%206.51.34%20PM.png)
 
-### Mobile
-
-![](http://cl.ly/image/3n432P3S161z/screenshot%202014-09-01%20at%2011.20.52%20AM.png)
-
 ## :ribbon: Color Schemes :ribbon:
 
 I wear different colors (based on [Flat UI Colors](http://flatuicolors.com/)):
