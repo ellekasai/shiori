@@ -102,6 +102,7 @@ You **should** change these files before deploying:
 * `CNAME`: Change this to host Shiori on a custom domain.
 * `README.md`: Write your own README!
 * `_includes/nav.html`: Modify or remove navigation links.
+* `_includes/nav-right.html`: Modify or remove navigation links.
 * `_includes/sidebar.html`: Customize the side bar.
 * `_includes/post-header.html`: Customize the post header.
 * `_includes/post-footer.html`: Customize the post footer.
