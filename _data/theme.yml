@@ -18,3 +18,8 @@ color: default
 
 # Show navigation below each post?
 show_post_navs: true
+
+# Hides the sidebar.
+# You can also hide the sidebar by setting hide_sidebar: true on
+# the YAML front matter for each page.
+hide_sidebar: false

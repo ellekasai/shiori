@@ -46,12 +46,18 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-sm-8">
-          {{ content }}
-        </div>
-        <div class="col-sm-4">
-          {% include sidebar.html %}
-        </div>
+        {% if page.hide_sidebar or site.data.theme.hide_sidebar %}
+          <div class="col-sm-12">
+            {{ content }}
+          </div>
+        {% else %}
+          <div class="col-sm-8">
+            {{ content }}
+          </div>
+          <div class="col-sm-4">
+            {% include sidebar.html %}
+          </div>
+        {% endif %}
       </div>
       <div class="row footer">
         <div class="col-sm-12 text-center">
