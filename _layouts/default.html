@@ -35,10 +35,10 @@
           <a href="{{ "/" | prepend:site.baseurl }}" class="navbar-brand">{{ site.title }}</a>
         </div>
         <div class="collapse navbar-collapse js-navbar-collapse">
-          <ul class="navbar-nav nav">
+          <ul class="navbar-nav nav" data-purplecoat="shiori" data-purplecoat-label="nav.html">
             {% include nav.html %}
           </ul>
-          <ul class="navbar-nav nav navbar-right">
+          <ul class="navbar-nav nav navbar-right" data-purplecoat="shiori" data-purplecoat-label="nav-right.html">
             {% include nav-right.html %}
           </ul>
         </div>
@@ -67,6 +67,7 @@
     </div>
     <script src="{{ "/javascripts/jquery.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/javascripts/bootstrap.min.js" | prepend:site.baseurl }}"></script>
+    <script src="{{ "/javascripts/purplecoat-min.js" | prepend:site.baseurl }}"></script>
     {% include scripts.html %}
   </body>
 </html>
