@@ -156,6 +156,21 @@ h3 {
   color: $gray-light;
 }
 
+.gist {
+  table {
+    border: none !important;
+    width: auto !important;
+  }
+  td {
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    &.line-data {
+      border-right: none !important;
+    }
+  }
+}
+
 @media(max-width: $screen-xs-max) {
   .navbar-header {
     text-align: center;
