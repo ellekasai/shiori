@@ -1,5 +1,6 @@
 ---
 title: "Introducing Shiori: A Bootstrap-Based Jekyll Theme"
+categories: [shiori]
 ---
 
 ![Shiori](https://cloud.githubusercontent.com/assets/992008/3955483/2b9a77ae-2702-11e4-9f28-6afb051271de.png)
