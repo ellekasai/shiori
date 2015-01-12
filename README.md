@@ -125,6 +125,10 @@ You can customize CSS by editing these files:
 * `_sass/custom-bootstrap-variables.scss`: Change Bootstrap variables ([documentation](http://getbootstrap.com/customize)).
 * `_sass/custom-scss.scss`: Add your own custom CSS.
 
+### Category Pages
+
+If you want to make category pages, you must manually push the generated `_site` directory to GitHub. If you're still okay with that, [@alextsui05](https://github.com/alextsui05) made an [excellent demo and tutorial for category pages](http://alextsui05.github.io/shiori/categories-in-shiori/). You can see his code on [this pull request](https://github.com/ellekasai/shiori/pulls).
+
 ## :ribbon: Author :ribbon:
 
 #### Elle Kasai
