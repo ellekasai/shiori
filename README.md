@@ -127,7 +127,7 @@ You can customize CSS by editing these files:
 
 ### Category Pages
 
-If you want to make category pages, you must manually push the generated `_site` directory to GitHub. If you're still okay with that, [@alextsui05](https://github.com/alextsui05) made an [excellent demo and tutorial for category pages](http://alextsui05.github.io/shiori/categories-in-shiori/). You can see his code on [this pull request](https://github.com/ellekasai/shiori/pulls).
+If you want to make category pages, you must manually push the generated `_site` directory to GitHub. If you're still okay with that, [@alextsui05](https://github.com/alextsui05) made an [excellent demo and tutorial for category pages](http://alextsui05.github.io/shiori/categories-in-shiori/). You can see his code on [this pull request](https://github.com/ellekasai/shiori/pull/11).
 
 ## :ribbon: Author :ribbon:
 
