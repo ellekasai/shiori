@@ -1,5 +1,6 @@
 ---
 title: "Shiori by Example: Fundamental HTML Elements"
+categories: [Shiori, CSS, HTML]
 ---
 
 Shiori uses [Bootstrap](http://getbootstrap.com/) for styling. Here's how fundamental HTML elements are displayed on Shiori. To learn more, check out Bootstrap's [documentation](http://getbootstrap.com/css/).
