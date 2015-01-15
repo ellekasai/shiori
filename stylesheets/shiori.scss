@@ -156,6 +156,25 @@ h3 {
   color: $gray-light;
 }
 
+.home-read-more {
+  margin-bottom: 40px;
+
+.gist {
+  table {
+    border: none !important;
+    width: auto !important;
+  }
+  td {
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    &.line-data {
+      border-right: none !important;
+      line-height: 1.4 !important;
+    }
+  }
+}
+
 @media(max-width: $screen-xs-max) {
   .navbar-header {
     text-align: center;
