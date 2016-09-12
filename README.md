@@ -1,3 +1,6 @@
+Unfortunately this project is *no longer maintained*.
+I now have other priorities in my life and no longer have time to update this library. Email me at elle.kasai@gmail.com if you'd like to reach me.
+
 # :ribbon: Hi! I'm Shiori, a Bootstrap-based Jekyll Theme. :ribbon:
 
 ![](https://cloud.githubusercontent.com/assets/992008/3955483/2b9a77ae-2702-11e4-9f28-6afb051271de.png)
