@@ -1,4 +1,5 @@
-Unfortunately this project is *no longer maintained*.
+Unfortunately this project is **no longer maintained**.
+
 I now have other priorities in my life and no longer have time to update this library. Email me at elle.kasai@gmail.com if you'd like to reach me.
 
 # :ribbon: Hi! I'm Shiori, a Bootstrap-based Jekyll Theme. :ribbon:
