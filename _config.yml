@@ -13,7 +13,7 @@ exclude:
   - "CNAME"
   - "Gemfile"
   - "Gemfile.lock"
-permalink: :title
+permalink: /blog/:title
 defaults:
   -
     scope:
