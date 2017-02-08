@@ -59,8 +59,6 @@ print_hi('Elle')
 #=> prints 'Hi, Elle' to STDOUT.
 {% endhighlight %}
 
-{% gist c6d9b784491f9b7cc953 %}
-
 ## Images
 
 Images have round corners and are responsive by default.
