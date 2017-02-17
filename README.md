@@ -113,7 +113,7 @@ You **should** change these files before deploying:
 You **may** customize these files - they're optional:
 
 * `favicon.ico`: Favicon.
-* `about.html`: About page. Currently not linked from anywhere.
+* `about.md`: About page. Currently not linked from anywhere.
 * `_includes/head.html`: Extra stuff in the `<head>` tag.
 * `_includes/scripts.html`: Extra stuff before the `</body>` tag.
 * `_includes/post-header-home.html`: Customize the post header on the home page.
