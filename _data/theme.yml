@@ -2,7 +2,7 @@
 # you don't have to restart Jekyll to see changes.
 
 # Number of posts displayed on the home page.
-num_home_posts: 3
+num_home_posts: 5
 
 # Color scheme based on http://flatuicolors.com/.
 # Possible values:
@@ -14,7 +14,7 @@ num_home_posts: 3
 # - purple
 # - orange
 # - red
-color: default
+color: dark
 
 # Show navigation below each post?
 show_post_navs: true
