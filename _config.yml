@@ -1,6 +1,6 @@
-baseurl: "/shiori" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "http://ellekasai.github.io" # the base hostname & protocol for your site
-title: "Shiori"
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "http://epstomai.github.io" # the base hostname & protocol for your site
+title: "广重36号 ~ 窗外的风景色"
 
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
@@ -14,6 +14,7 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
 permalink: :title
+# permalink: /blog/:year/:month/:day/:title
 defaults:
   -
     scope:
