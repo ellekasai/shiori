@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Pursuit of Happiness" 观后感
+title: “The Pursuit of Happiness” 观后感
 date: 2017-07-27 22:16
 author: knia@live.cn
 comments: true
