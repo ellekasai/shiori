@@ -4,7 +4,7 @@ title: Reality is Broken
 date: 2017-02-07 00:17
 author: knia@live.cn
 comments: true
-categories: [ARG, 感想, , 未分类]
+categories: [ARG, 感想, 未分类]
 ---
 现实不再，所以我们需要一个东西来修补它——游戏。这可不是指电子游戏，虽然电子游戏也能反馈到现实，但是毕竟是虚拟的。所以一个更加强健的方案——ARG（Alternate Reality Game）出现了。
 
