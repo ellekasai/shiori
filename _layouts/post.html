@@ -23,7 +23,6 @@ layout: default
             <a href="{{ "/archive" | prepend:site.baseurl }}">浏览日志 ({{ site.posts.size }})</a>
           </h3>
           <h2 class="post-title-link"><a href="{{ page.previous.url | prepend:site.baseurl }}">{{ page.previous.title }}</a></h2>
-          <!-- {{ page.previous.excerpt | markdownify }} -->
         </div>
       {% endif %}
       {% if page.next %}
@@ -32,11 +31,10 @@ layout: default
             更晚
             {% unless page.previous %}
               <span class="text-muted"> &middot; </span>
-              <a href="{{ "/archive" | prepend:site.baseurl }}">浏览日志 ({{ site.posts.size }})</a>
+              <a href="{{ "/archive" | prepend:site.baseurl }}">浏览全部日志 ({{ site.posts.size }})</a>
             {% endunless %}
           </h3>
           <h2 class="post-title-link"><a href="{{ page.next.url | prepend:site.baseurl }}">{{ page.next.title }}</a></h2>
-          <!-- {{ page.next.excerpt | markdownify }} -->
         </div>
       {% endif %}
     </div>
