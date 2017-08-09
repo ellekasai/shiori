@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [ESL(English as Secondary Language)] English Improving
+title: ESL(English as Secondary Language) English Improving
 date: 2017-07-13 22:28
 author: knia@live.cn
 comments: true
