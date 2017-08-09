@@ -1,0 +1,34 @@
+---
+title: 撰写新文章
+permalink: "write-an-archive/index.html"
+---
+
+        <div id="layout">
+            <div id="editormd" class="editormd editormd-vertical" style="width: 90%; height: 640px;">
+
+            </div>
+        </div>
+        <script src="/javascripts/jquery.min.js"></script>
+        <script src="/javascripts/editormd.min.js"></script>
+        <script type="text/javascript">
+			var mdEditor;
+
+            $(function() {
+                mdEditor = editormd("editormd", {
+                    width   : "90%",
+                    height  : 640,
+                    syncScrolling : "single",
+                    path    : "../lib/"
+                });
+                
+                /*
+                // or
+                testEditor = editormd({
+                    id      : "test-editormd",
+                    width   : "90%",
+                    height  : 640,
+                    path    : "../lib/"
+                });
+                */
+            });
+        </script>
