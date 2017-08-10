@@ -10,10 +10,10 @@
 </div>
 <div class="post-excerpt-home">
   {{ post.excerpt }}
-  <p class="text-right"><a href="{{ post.url | prepend:site.baseurl }}">Continue Reading &rarr;</a></p>
+  <p class="text-right"><a class="btn btn-default btn-sm" href="{{ post.url | prepend:site.baseurl }}">继续阅读<i class="fa fa-angle-double-right"></i></a></p>
 </div>
 {% endfor %}
 <hr>
 <div class="home-read-more">
-  <a href="{{ "/archive" | prepend:site.baseurl }}" class="btn btn-primary btn-block btn-lg">View All {{ site.posts | size }} Articles →</a>
+  <a href="{{ "/archive" | prepend:site.baseurl }}" class="btn btn-primary btn-block btn-lg">浏览所有 {{ site.posts | size }} 日志 →</a>
 </div>

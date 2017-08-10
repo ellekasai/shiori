@@ -18,25 +18,23 @@ layout: default
       {% if page.previous %}
         <div class="col-md-6 post-nav">
           <h3 class="section-header">
-            Older
+            更早
             <span class="text-muted"> &middot; </span>
-            <a href="{{ "/archive" | prepend:site.baseurl }}">View Archive ({{ site.posts.size }})</a>
+            <a href="{{ "/archive" | prepend:site.baseurl }}">浏览日志 ({{ site.posts.size }})</a>
           </h3>
           <h2 class="post-title-link"><a href="{{ page.previous.url | prepend:site.baseurl }}">{{ page.previous.title }}</a></h2>
-          {{ page.previous.excerpt | markdownify }}
         </div>
       {% endif %}
       {% if page.next %}
         <div class="col-md-6 post-nav">
           <h3 class="section-header">
-            Newer
+            更晚
             {% unless page.previous %}
               <span class="text-muted"> &middot; </span>
-              <a href="{{ "/archive" | prepend:site.baseurl }}">View Archive ({{ site.posts.size }})</a>
+              <a href="{{ "/archive" | prepend:site.baseurl }}">浏览全部日志 ({{ site.posts.size }})</a>
             {% endunless %}
           </h3>
           <h2 class="post-title-link"><a href="{{ page.next.url | prepend:site.baseurl }}">{{ page.next.title }}</a></h2>
-          {{ page.next.excerpt | markdownify }}
         </div>
       {% endif %}
     </div>
