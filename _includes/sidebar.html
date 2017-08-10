@@ -1,20 +1,102 @@
 <!-- Feel free to remove this div. Uses purplecoat: http://ellekasai.github.io/purplecoat.js -->
 <div data-purplecoat="shiori" data-purplecoat-label="sidebar.html">
-<!-- 
+  <!-- 
   <h3 class="section-header">
     Get Shiori
   </h3> -->
 
-  <h3>
+  <!-- <h3>
     博主
   </h3>
-
   <p>
     <div class="media">
       <h4 class="media-heading">Knia</h4>
       <div class="media-body">
-        <img src="https://avatars3.githubusercontent.com/u/20502421?v=4&u=9a6410986360ec231d597a2872f2b4ead6af8508&s=100" alt="⑨Knia">
+        <img src="https://avatars3.githubusercontent.com/u/20502421?v=4&u=9a6410986360ec231d597a2872f2b4ead6af8508&s=100" alt="⑨knia">
       </div>
     </div>
-  </p>
+  </p> -->
+
+  <header id="masthead" class="site-header" role="banner">
+    <div class="hgroup">
+      <h1 class="site-title display-title"><a href="https://epstomai.github.io/" title="广重36号" rel="home"><span itemprop="name">广重36号</span></a></h1>
+      <h2 itemprop="description" class="site-description">~ 窗外的风景色 ~</h2> </div>
+    <button type="button" class="btn btn-link hidden-lg toggle-sidebar" data-toggle="offcanvas" aria-label="Sidebar"><i class="fa fa-gear"></i></button>
+    <button type="button" class="btn btn-link hidden-lg toggle-navigation" aria-label="Navigation Menu"><i class="fa fa-bars"></i></button>
+    <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+      <ul id="menu-%e9%80%89%e9%a1%b9" class="nav-menu">
+        <li id="menu-item-8" class="menu-item menu-item-type-taxonomy menu-item-object-post_format menu-item-8">
+          <a href="/archive">日志</a>
+          <a href="/write-an-archive">Post!</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="sidebar-offcanvas">
+    <div id="main-sidebar" class="widget-area" role="complementary">
+      <!--<aside id="search-2" class="widget widget_search">
+        <form method="get" id="searchform" action="http://kniaya.top/">
+          <label for="s" class="assistive-text">搜索</label>
+          <input type="text" class="field" name="s" id="s" placeholder="搜索">
+          <input type="submit" class="submit" name="submit" id="searchsubmit" value="搜索">
+        </form>
+      </aside>-->
+      <aside id="recent-posts-2" class="widget widget_recent_entries">
+        <h3 class="widget-title">近期文章</h3>
+        <ul>
+        {% for post in site.posts limit:5 %}
+          <li>
+            <a href="{{ post.url | prepend:site.baseurl}}" class="post-title-archive">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+      </aside>
+      <!--<aside id="archives-2" class="widget widget_archive">
+        <h3 class="widget-title">文章归档</h3>
+        <ul>
+          <li>
+            <a href="http://kniaya.top/?m=201708">2017年八月</a>
+          </li>
+          <li>
+            <a href="http://kniaya.top/?m=201707">2017年七月</a>
+          </li>
+          <li>
+            <a href="http://kniaya.top/?m=201706">2017年六月</a>
+          </li>
+          <li>
+            <a href="http://kniaya.top/?m=201705">2017年五月</a>
+          </li>
+          <li>
+            <a href="http://kniaya.top/?m=201702">2017年二月</a>
+          </li>
+          <li>
+            <a href="http://kniaya.top/?m=201701">2017年一月</a>
+          </li>
+          <li>
+            <a href="http://kniaya.top/?m=201612">2016年十二月</a>
+          </li>
+          <li>
+            <a href="http://kniaya.top/?m=201611">2016年十一月</a>
+          </li>
+          <li>
+            <a href="http://kniaya.top/?m=201610">2016年十月</a>
+          </li>
+          <li>
+            <a href="http://kniaya.top/?m=201609">2016年九月</a>
+          </li>
+          <li>
+            <a href="http://kniaya.top/?m=201608">2016年八月</a>
+          </li>
+          <li>
+            <a href="http://kniaya.top/?m=201607">2016年七月</a>
+          </li>
+          <li>
+            <a href="http://kniaya.top/?m=201606">2016年六月</a>
+          </li>
+        </ul>
+      </aside>-->
+    </div>
+  </div>
+
 </div>

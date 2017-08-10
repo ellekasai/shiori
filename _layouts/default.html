@@ -8,6 +8,7 @@
     <link href='//fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/wp-style.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend:site.baseurl }}">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
@@ -52,11 +53,11 @@
             {{ content }}
           </div>
         {% else %}
-          <div class="col-sm-8">
-            {{ content }}
-          </div>
-          <div class="col-sm-4">
+          <div id="secondary" class="col-sm-3">
             {% include sidebar.html %}
+          </div>
+          <div class="col-sm-9">
+            {{ content }}
           </div>
         {% endif %}
       </div>

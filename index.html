@@ -10,7 +10,7 @@
 </div>
 <div class="post-excerpt-home">
   {{ post.excerpt }}
-  <p class="text-right"><a href="{{ post.url | prepend:site.baseurl }}">继续阅读 &rarr;</a></p>
+  <p class="text-right"><a class="btn btn-default btn-sm" href="{{ post.url | prepend:site.baseurl }}">继续阅读<i class="fa fa-angle-double-right"></i></a></p>
 </div>
 {% endfor %}
 <hr>
