@@ -18,49 +18,15 @@ I now have other priorities in my life and no longer have time to update this li
 
 ## :ribbon: Color Schemes :ribbon:
 
-I wear different colors (based on [Flat UI Colors](http://flatuicolors.com/)):
+I wear different colors (based on [Flat UI Colors](http://flatuicolors.com/)).
 
-### Dark
-
-![](http://cl.ly/image/3d3T3b3E0b45/screenshot%202014-08-30%20at%206.48.56%20PM.png)
-
----
-
-### Turquoise
-
-![](http://cl.ly/image/1s1k3m1E3n37/screenshot%202014-08-30%20at%206.49.02%20PM.png)
-
----
-
-### Green
-
-![](http://cl.ly/image/0G0G3u392I11/screenshot%202014-08-30%20at%206.49.08%20PM.png)
-
----
-
-### Blue
-
-![](http://cl.ly/image/1V1C0n2U0c1s/screenshot%202014-08-30%20at%206.49.14%20PM.png)
-
----
-
-### Purple
-
-![](http://cl.ly/image/1V283M0f1K08/screenshot%202014-08-30%20at%206.49.19%20PM.png)
-
----
-
-### Orange
-
-![](http://cl.ly/image/2d2k010J3z3g/screenshot%202014-08-30%20at%206.49.24%20PM.png)
-
----
-
-### Red
-
-![](http://cl.ly/image/10080E2G3c1e/screenshot%202014-08-30%20at%206.49.31%20PM.png)
-
----
+- Dark
+- Turquoise
+- Green
+- Blue
+- Purple
+- Orange
+- Red
 
 ## :ribbon: Usage :ribbon:
 
@@ -139,7 +105,6 @@ If you want to make category pages, you must manually push the generated `_site`
 
 ![](https://avatars0.githubusercontent.com/u/2410692?v=2&s=200)
 
-* http://twitter.com/ellekasai
 * http://github.com/ellekasai
 
 #### Special Thanks
